@@ -2,6 +2,8 @@
 
 Terraform code to deploy Nginx on AWS ECS using Fargate or EC2 launch types.
 
+![Nginx ECS  fargate](https://github.com/user-attachments/assets/ca37e882-3da2-49d8-a0f1-24e98fcd0e03)
+
 ## Overview
 
 This repository contains Terraform modules that provision an Nginx web server running on AWS ECS (Elastic Container Service), with support for both Fargate and EC2 launch types. The infrastructure includes an Application Load Balancer (ALB), VPC/subnets integration, auto-scaling (for EC2), IAM roles, and CloudWatch logging. The solution is ideal for quickly launching a containerized Nginx service with a customizable web page.
